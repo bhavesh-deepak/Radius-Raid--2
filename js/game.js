@@ -1033,9 +1033,9 @@ $.setState = function( state ) {
 			lockedWidth: 299,
 			lockedHeight: 49,
 			scale: 3,
-			title: 'JS13KGAMES',
+			title: 'BRNGAMEZ',
 			action: function() {				
-				location.href = 'http://js13kgames.com';
+				location.href = 'http://';
 				$.mouse.down = 0;
 			}
 		} );
@@ -1168,15 +1168,15 @@ $.setupStates = function() {
 		var bottomInfo = $.text( {
 			ctx: $.ctxmg,
 			x: $.cw / 2,
-			y: $.ch - 172,
-			text: 'CREATED BY JACK RUGILE FOR JS13KGAMES 2013',
+			y: $.ch - 22,
+			text: 'CREATED BY BHAVESH  FOR BRNGAMEZ 2026',
 			hspacing: 1,
 			vspacing: 1,
 			halign: 'center',
 			valign: 'bottom',
-			scale: 1,
+			scale: 1.2,
 			snap: 1,
-			render: 1
+			render: 2
 		} );
 		$.ctxmg.fillStyle = '#666';
 		$.ctxmg.fill();
@@ -1280,7 +1280,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 - 10,
 			y: creditsTitle.ey + 49,
-			text: 'CREATED FOR JS13KGAMES BY\nINSPIRATION AND SUPPORT\n\nAUDIO PROCESSING\nGAME INSPIRATION AND IDEAS\n\nHTML5 CANVAS REFERENCE\n\nGAME MATH REFERENCE',
+			text: 'CREATED FOR BRNGAMEZ BY\nINSPIRATION AND SUPPORT\n\nAUDIO PROCESSING\nGAME INSPIRATION AND IDEAS\n\nHTML5 CANVAS REFERENCE\n\nGAME MATH REFERENCE',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'right',
@@ -1297,7 +1297,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 + 10,
 			y: creditsTitle.ey + 49,
-			text: '@JACKRUGILE\n@REZONER, @LOKTAR00, @END3R,\n@AUSTINHALLOCK, @CHANDLERPRALL\nJSFXR BY @MARKUSNEUBRAND\nASTEROIDS, CELL WARFARE,\nSPACE PIPS, AND MANY MORE\nNIHILOGIC HTML5\nCANVAS CHEAT SHEET\nBILLY LAMBERTA FOUNDATION\nHTML5 ANIMATION WITH JAVASCRIPT',
+			text: '@BHAVESH NAVANDAR\n@MOHAK, @RADHA, @ND3R,\n@SHLOK, @KANHA\nJFXR BY @SHRADDHA\nASTEOIDS, RIYA WARFARE,\nDEEPAK PIPS, AND MANY MORE\nNIHILOGIC HTML5\nMANY MORE\nBRN SOFT FOUNDATION\nHTML5 ANIMATION WITH JAVASCRIPT',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'left',
